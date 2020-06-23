@@ -1,0 +1,182 @@
+{
+  "mydb": "energy",
+  "username": "admin",
+  "password": "",
+  "influxdb": "http://demo.xxgis.com:8086",
+  "mysql": "root:czc52736567@tcp(demo.xxgis.com:3306)/junhetemp?charset=utf8",
+  "channels": [
+    {
+      "device": [
+        {
+          "addr": 8,
+          "datapoint": [
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "dev1.s1",
+              "regaddr": 1501,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "dev1.s2",
+              "regaddr": 1502,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "dev1.s3",
+              "regaddr": 1503,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "dev1.s4",
+              "regaddr": 1504,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "dev1.s5",
+              "regaddr": 1505,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "dev1.s6",
+              "regaddr": 1506,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "dev2.s1",
+              "regaddr": 1507,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "dev2.s2",
+              "regaddr": 1508,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "dev2.s3",
+              "regaddr": 1509,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "dev2.s4",
+              "regaddr": 1510,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "dev2.s5",
+              "regaddr": 1511,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "dev2.s6",
+              "regaddr": 1512,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "channel2.dev1.s1",
+              "regaddr": 1513,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "channel2.dev1.s2",
+              "regaddr": 1514,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "channel2.dev1.s3",
+              "regaddr": 1515,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "channel2.dev1.s4",
+              "regaddr": 1516,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "channel2.dev1.s5",
+              "regaddr": 1517,
+              "reserved": ""
+            },
+            {
+              "alarmcondition": "40,60",
+              "bitoffset": 0,
+              "circle": 1000,
+              "datatype": 1,
+              "dpid": "channel2.dev1.s6",
+              "regaddr": 1518,
+              "reserved": ""
+            }
+          ]
+        }
+      ],
+      "id": 1,
+      "portname": "COM1"
+    }
+  ]
+}

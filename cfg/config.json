@@ -1,0 +1,9 @@
+{
+  "mydb": "energy",
+  "username": "admin",
+  "password": "",
+  "influxdb": "http://192.168.1.103:8086",
+  "mysql": "root:123456@tcp(192.168.1.118:3306)/junhe?charset=utf8mb4",
+  "requestgap": 10,
+  "apiport":8081
+}

@@ -1,0 +1,9 @@
+{
+  "mydb": "energy",
+  "username": "admin",
+  "password": "",
+  "influxdb": "http://demo.xxgis.com:8086",
+  "mysql": "root:czc52736567@tcp(demo.xxgis.com:3306)/junhetemp?charset=utf8",
+  "requestgap": 5,
+  "apiport":8081
+}

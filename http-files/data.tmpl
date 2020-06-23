@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>通道实时参数</title>
+<meta http-equiv="refresh" content="2">
+<!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
+table.gridtable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+</style>
+</head>
+<body>
+
+<table class="gridtable">
+    <tr>
+        <th>通道ID</th><th>通道参数</th><th>设备列表</th>
+    </tr>
+    {{range .Channels}}     
+      <tr>      
+       <td><b>{{.ID}}</b></td>
+       <td>{{.Portname}}</td>
+       <td>
+        <table class="gridtable">
+            <tr>
+                <th>SlaveID</th><th>测点列表</th>
+            </tr>
+            {{range .Device}}
+                 <tr>
+                    <td><b>{{.Addr}}</b></td>
+                    <td>
+                        <table class="gridtable">
+                            <tr>
+                                <th>测点ID</th><th>寄存器地址</th><th>报警参数</th><th>连接</th><th>有效</th><th>温度值</th><th>报警</th><th>时间</th>
+                            </tr>
+                            {{range .Datapoint}}
+                                <tr>
+                                    <td><b>{{.Dpid}}</b></td>
+                                    <td>{{.Regaddr}}</td>
+                                    <td>{{.Alarmcondition}}</td>
+                                    <td>{{.Connected}}</td>
+                                    <td>{{.Valid}}</td>
+                                    <td><b>{{.Val}}</b></td>
+                                    <td>{{.Alarm}}</td>
+                                    <td>{{.UpdateTime}}</td>
+                                </tr>
+                            {{end}}       
+                        </table>
+                    </td>
+                 </tr>
+            {{end}}       
+        </table>
+       </td>
+      </th>
+    {{end}}
+</table>
+
+</body>
+</html>
