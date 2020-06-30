@@ -1,4 +1,4 @@
-module xxnet
+module modbustodb
 
 go 1.14
 
