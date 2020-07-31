@@ -1,4 +1,4 @@
-module github/shift0ogg/modbustodb
+module github.com/shift0ogg/modbustodb
 
 go 1.14
 
